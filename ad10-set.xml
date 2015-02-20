@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- <PropertyList include="ad10-jsbsim-cnf.xml"> -->
+<PropertyList include="ad10-yasim-cnf.xml">
+
+  <sim>
+    <description>Arsenal Delanne 10 (YASim)</description>
+    <author>Emmanuel BARANGER (3D/FDM)</author>
+  </sim>
+
+</PropertyList>
+

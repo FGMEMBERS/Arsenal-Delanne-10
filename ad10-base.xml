@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<PropertyList>
+
+  <sim include="Nasal/views.xml">
+
+    <author>BARANGER Emmanuel (3D/FDM)</author>
+    <aircraft-version>0.1</aircraft-version>
+    <status>Alpha</status>
+
+    <fuel-fraction>0.8</fuel-fraction>
+
+    <startup>
+     <splash-texture>Aircraft/Arsenal-Delanne-10/ad10-splash.png</splash-texture>
+    </startup>
+
+    <systems>
+      <electrical>
+        <path>Aircraft/j3cub/cub-electrical.xml</path>
+      </electrical>
+    </systems> 
+
+    <sound>
+      <path>Aircraft/Arsenal-Delanne-10/Sounds/ad10-sound.xml</path>
+    </sound>
+
+    <model>
+      <path archive="y">Aircraft/Arsenal-Delanne-10/Models/ad10.xml</path>
+      <livery>
+        <file type="string">default</file>
+      </livery>
+    </model>
+
+    <submodels> 
+      <serviceable type="bool">true</serviceable>
+      <path>Aircraft/Arsenal-Delanne-10/Models/Effects/submodels.xml</path>
+    </submodels>
+
+    <multiplay>
+      <chat_display>1</chat_display>
+      <generic>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+        <int type="int">0</int>
+      </generic>
+    </multiplay>
+
+    <help>
+      <title>Arsenal Delanne 10</title>
+      <key>
+        <name>d</name>
+        <desc>Open/Close canopy</desc>
+      </key>
+      <key>
+        <name>e</name>
+        <desc>Guns fire</desc>
+      </key>
+    </help>
+
+    <menubar include="Dialogs/ad10-menu.xml"/>
+
+  </sim>
+
+  <yasim>
+    <ad10>
+      <pilot-lb>180</pilot-lb>
+    </ad10>
+  </yasim>
+
+  <engines>
+    <engine>
+      <rpm type="double">700</rpm>
+    </engine>
+  </engines>
+
+  <input>
+    <keyboard include="Nasal/ad10-keyboard.xml"/>
+  </input>
+ 
+  <nasal>
+    <ad10>
+      <file>Aircraft/Arsenal-Delanne-10/Nasal/doors.nas</file>
+      <file>Aircraft/Arsenal-Delanne-10/Nasal/liveries.nas</file>
+    </ad10>
+<!--
+    <guns>
+      <file>Aircraft/Arsenal-Delanne-10/Nasal/weapons.nas</file>
+      <file>Aircraft/Arsenal-Delanne-10/Nasal/revi.nas</file>
+    </guns>
+-->
+  </nasal>
+
+</PropertyList>
+
