@@ -16,7 +16,7 @@
 
     <systems>
       <electrical>
-        <path>Aircraft/j3cub/cub-electrical.xml</path>
+        <path>Aircraft/Arsenal-Delanne-10/Systems/Arsenal-Delanne-10-electrical.xml</path>
       </electrical>
     </systems> 
 
