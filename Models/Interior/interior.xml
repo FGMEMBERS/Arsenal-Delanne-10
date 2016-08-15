@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+<PropertyList>
+
+  <path>interior.ac</path>
+
+  <animation>
+    <!-- Objets opaques -->
+    <object-name>interieur</object-name>
+    <object-name>inttour</object-name>
+    <object-name>planchet</object-name>
+    <object-name>intcanopy</object-name>
+    <object-name>structure</object-name>
+    
+    <!-- Objets transparents -->
+    <object-name>intvitres</object-name>
+    <object-name>intvitrecanopy</object-name>
+  </animation>
+
+  <!-- working for Rembrandt -->
+  <effect>
+    <inherits-from>Effects/model-transparent</inherits-from>
+    <object-name>intvitres</object-name>
+    <object-name>intvitrecanopy</object-name>
+  </effect>
+  
+  <!-- Pilote -->
+  <model>
+    <path>Aircraft/Arsenal-Delanne-10/Models/Pilot/pilot.xml</path>
+    <offsets>
+      <x-m> 1.567 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.729 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Seat -->
+  <model>
+    <path>Aircraft/Arsenal-Delanne-10/Models/Interior/Seats/seat.xml</path>
+    <offsets>
+      <x-m> 1.915 </x-m>
+      <y-m> 0.000 </y-m>
+      <z-m> 0.711 </z-m>
+    </offsets>
+  </model>
+  
+  <!-- Planches de bord -->
+  <model>
+    <path>Aircraft/Arsenal-Delanne-10/Models/Interior/Panel/panel.xml</path>
+    <offsets>
+      <x-m> 1.23667 </x-m>
+      <y-m> 0.00000 </y-m>
+      <z-m> 0.87891 </z-m>
+    </offsets>
+  </model>
+
+  <!-- Canopy -->
+  <animation>
+    <name>IntCanopy</name>
+    <object-name>intcanopy</object-name>
+    <object-name>intvitrecanopy</object-name>
+  </animation>
+  
+  <animation>
+    <type>pick</type>
+    <object-name>IntCanopy</object-name>
+    <visible>true</visible>
+    <action>
+      <button>0</button>
+      <repeatable>false</repeatable>
+      <binding>
+        <command>nasal</command>
+        <script>doors.crew.toggle();</script>
+      </binding>
+    </action>
+  </animation>
+  
+  <animation>
+    <type>translate</type>
+    <object-name>IntCanopy</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> 0.77 </factor>
+    <axis>
+      <x> 1 </x>
+      <y> 0 </y>
+      <z> 0 </z>
+    </axis>
+  </animation>
+  
+  <animation>
+    <type>translate</type>
+    <object-name>IntCanopy</object-name>
+    <property>sim/model/door-positions/crew/position-norm</property>
+    <factor> 0.04 </factor>
+    <axis>
+      <x> 0 </x>
+      <y> 0 </y>
+      <z> 1 </z>
+    </axis>
+  </animation>
+  
+</PropertyList>
