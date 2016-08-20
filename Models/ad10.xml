@@ -1,21 +1,9 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-=======
 <?xml version="1.0" encoding="ISO-8859-1"?>
->>>>>>> svn/master
 
 <PropertyList>
 
   <path>ad10.ac</path>
 
-<<<<<<< HEAD
-  <nasal>
-    <load>
-      var livery_update = aircraft.livery_update.new("Aircraft/Arsenal-Delanne-10/Models/Liveries", 10);
-    </load>
-    <unload>
-      livery_update.stop();
-=======
   <!-- MP sound call -->
   <sound>
     <path>Aircraft/Arsenal-Delanne-10/Sounds/mp-sound.xml</path>
@@ -41,7 +29,6 @@
       livery_update.stop();
       crew_door.unalias();
       passenger_door.unalias();
->>>>>>> svn/master
     </unload>
   </nasal>
 
@@ -49,30 +36,12 @@
     <!-- Objets opaques -->
     <object-name>fuselage</object-name>
     <object-name>bol</object-name>
-<<<<<<< HEAD
-    <object-name>helice</object-name>
-=======
->>>>>>> svn/master
     <object-name>ailes</object-name>
     <object-name>aileronG</object-name>
     <object-name>voletG</object-name>
     <object-name>aileronD</object-name>
     <object-name>voletD</object-name>
     <object-name>montants</object-name>
-<<<<<<< HEAD
-    <object-name>aile2</object-name>
-    <object-name>profondeurGE</object-name>
-    <object-name>profondeurGI</object-name>
-    <object-name>profondeurDI</object-name>
-    <object-name>profondeurDE</object-name>
-    <object-name>derives</object-name>
-    <object-name>directionG</object-name>
-    <object-name>directionD</object-name>
-    <object-name>axeG</object-name>
-    <object-name>roueG</object-name>
-    <object-name>axeD</object-name>
-    <object-name>roueD</object-name> 
-=======
     <object-name>ailes2</object-name>
     <object-name>profondeurG</object-name>
     <object-name>profondeurD</object-name>
@@ -97,29 +66,11 @@
     <object-name>axeDB</object-name>
     <object-name>roueD</object-name> 
     <object-name>axeA</object-name> 
->>>>>>> svn/master
     <object-name>roueA</object-name> 
 
     <!-- Objets transparents -->
     <object-name>vitres</object-name>
-<<<<<<< HEAD
-    <object-name>propdisc</object-name>
-    <object-name>propblur</object-name>
-  </animation>
-
-  <animation>
-    <type>shader</type>
-    <shader>chrome</shader>
-    <texture>glass_shader.png</texture>
-    <object-name>vitres</object-name>
-  </animation>
-
-  <animation>
-    <type>noshadow</type>
-    <object-name>vitres</object-name>
-=======
     <object-name>vitrecanopy</object-name>
->>>>>>> svn/master
     <object-name>propdisc</object-name>
     <object-name>propblur</object-name>
   </animation>
@@ -128,30 +79,12 @@
     <type>material</type>
     <object-name>fuselage</object-name>
     <object-name>bol</object-name>
-<<<<<<< HEAD
-    <object-name>helice</object-name>
-=======
->>>>>>> svn/master
     <object-name>ailes</object-name>
     <object-name>aileronG</object-name>
     <object-name>voletG</object-name>
     <object-name>aileronD</object-name>
     <object-name>voletD</object-name>
     <object-name>montants</object-name>
-<<<<<<< HEAD
-    <object-name>aile2</object-name>
-    <object-name>profondeurGE</object-name>
-    <object-name>profondeurGI</object-name>
-    <object-name>profondeurDI</object-name>
-    <object-name>profondeurDE</object-name>
-    <object-name>derives</object-name>
-    <object-name>directionG</object-name>
-    <object-name>directionD</object-name>
-    <object-name>axeG</object-name>
-    <object-name>roueG</object-name>
-    <object-name>axeD</object-name>
-    <object-name>roueD</object-name> 
-=======
     <object-name>ailes2</object-name>
     <object-name>profondeurG</object-name>
     <object-name>profondeurD</object-name>
@@ -176,57 +109,16 @@
     <object-name>axeDB</object-name>
     <object-name>roueD</object-name> 
     <object-name>axeA</object-name> 
->>>>>>> svn/master
     <object-name>roueA</object-name> 
 
     <property-base>sim/model/livery</property-base>
     <texture-prop>texture</texture-prop>
     <texture>texture.png</texture>
-<<<<<<< HEAD
-<!--
-    <diffuse>
-      <red-prop>diffuse/red</red-prop>
-      <green-prop>diffuse/green</green-prop>
-      <blue-prop>diffuse/blue</blue-prop>
-    </diffuse>
-
-    <ambient>
-      <red-prop>ambient/red</red-prop>
-      <green-prop>ambient/green</green-prop>
-      <blue-prop>ambient/blue</blue-prop>
-    </ambient>
--->
-=======
->>>>>>> svn/master
     <specular>
       <red-prop>specular/red</red-prop>
       <green-prop>specular/green</green-prop>
       <blue-prop>specular/blue</blue-prop>
     </specular>
-<<<<<<< HEAD
-
-    <emission>
-      <red-prop>emission/red</red-prop>
-      <green-prop>emission/green</green-prop>
-      <blue-prop>emission/blue</blue-prop>
-    </emission>
-<!--
-    <shininess>
-      <shininess-prop>shininess</shininess-prop>
-    </shininess>
--->
-  </animation>
-
-  <!-- Interieur -->
-  <model>
-    <path>Aircraft/Arsenal-Delanne-10/Models/Interior/interior.xml</path>
-    <offsets>
-      <x-m> 0 </x-m>
-      <y-m> 0 </y-m>
-      <z-m> 0 </z-m>
-    </offsets>
-  </model>
-=======
   </animation>
 
   <effect>
@@ -354,7 +246,6 @@
   <model>
     <path>Aircraft/Arsenal-Delanne-10/Models/Interior/interior.xml</path>
   </model>
->>>>>>> svn/master
 
   <!-- L'hélice --> 
   <animation>
@@ -408,15 +299,12 @@
   <animation>
     <type>spin</type>
     <object-name>HeliceComplete</object-name>
-<<<<<<< HEAD
-=======
     <condition>
       <greater-than>
         <property>engines/engine[0]/rpm</property>
         <value> 5 </value>
       </greater-than>
     </condition>
->>>>>>> svn/master
     <property>/engines/engine[0]/rpm</property>
     <factor> 1 </factor>
     <center>
@@ -431,8 +319,6 @@
     </axis>
   </animation>
 
-<<<<<<< HEAD
-=======
   <!-- Gouverne de direction -->
   <animation>
     <type>rotate</type>
@@ -499,26 +385,10 @@
     </axis>
   </animation>
   
->>>>>>> svn/master
   <!-- Animations des ailerons -->
   <animation>
     <type>rotate</type>
     <object-name>aileronG</object-name>
-<<<<<<< HEAD
-    <property>/surface-positions/left-aileron-pos-norm</property>
-    <interpolation>
-      <entry><ind> -0.75 </ind><dep> -15.0 </dep></entry>
-      <entry><ind>  0.00 </ind><dep>   0.0 </dep></entry>
-      <entry><ind>  0.75 </ind><dep>  15.0 </dep></entry>
-    </interpolation>
-    <axis>
-      <x1-m> -0.566 </x1-m>
-      <y1-m> -4.841 </y1-m>
-      <z1-m>  1.623 </z1-m>
-      <x2-m> -0.240 </x2-m>
-      <y2-m> -3.446 </y2-m>
-      <z2-m>  1.528 </z2-m>
-=======
     <property>surface-positions/left-aileron-pos-norm</property>
     <factor> 15 </factor>
     <axis>
@@ -528,28 +398,12 @@
       <x2-m> -0.20161 </x2-m>
       <y2-m> -3.45647 </y2-m>
       <z2-m>  1.53120 </z2-m>
->>>>>>> svn/master
     </axis>
   </animation>
 
   <animation>
     <type>rotate</type>
     <object-name>aileronD</object-name>
-<<<<<<< HEAD
-    <property>/surface-positions/right-aileron-pos-norm</property>
-    <interpolation>
-      <entry><ind> -0.75 </ind><dep> -15.0 </dep></entry>
-      <entry><ind>  0.00 </ind><dep>   0.0 </dep></entry>
-      <entry><ind>  0.75 </ind><dep>  15.0 </dep></entry>
-    </interpolation>
-    <axis>
-      <x1-m> -0.240 </x1-m>
-      <y1-m>  3.446 </y1-m>
-      <z1-m>  1.528 </z1-m>
-      <x2-m> -0.566 </x2-m>
-      <y2-m>  4.841 </y2-m>
-      <z2-m>  1.623 </z2-m>
-=======
     <property>surface-positions/right-aileron-pos-norm</property>
     <factor> 15 </factor>
     <axis>
@@ -559,7 +413,6 @@
       <x2-m> -0.55107 </x2-m>
       <y2-m>  4.84088 </y2-m>
       <z2-m>  1.62354 </z2-m>
->>>>>>> svn/master
     </axis>
   </animation>
 
@@ -567,13 +420,8 @@
   <animation>
     <type>rotate</type>
     <object-name>voletG</object-name>
-<<<<<<< HEAD
-    <property>/surface-positions/flaps-pos-norm</property>
-    <factor>45.0</factor>
-=======
     <property>surface-positions/flaps-pos-norm</property>
     <factor> 45 </factor>
->>>>>>> svn/master
     <axis>
       <x1-m> -0.240 </x1-m>
       <y1-m> -3.446 </y1-m>
@@ -587,13 +435,8 @@
   <animation>
     <type>rotate</type>
     <object-name>voletD</object-name>
-<<<<<<< HEAD
-    <property>/surface-positions/flaps-pos-norm</property>
-    <factor>45.0</factor>
-=======
     <property>surface-positions/flaps-pos-norm</property>
     <factor> 45 </factor>
->>>>>>> svn/master
     <axis>
       <x1-m>  0.185 </x1-m>
       <y1-m>  1.633 </y1-m>
@@ -604,54 +447,6 @@
     </axis>
   </animation>
 
-<<<<<<< HEAD
-  <!-- Profondeur -->
-  <animation>
-    <type>rotate</type>
-    <object-name>profondeurGI</object-name>
-    <property>/controls/flight/elevator</property>
-    <factor> 15 </factor>
-    <axis>
-      <x1-m>  2.716 </x1-m>
-      <y1-m> -2.206 </y1-m>
-      <z1-m>  0.371 </z1-m>
-      <x2-m>  2.575 </x2-m>
-      <y2-m> -0.458 </y2-m>
-      <z2-m>  0.207 </z2-m>
-    </axis>
-  </animation>
-
-  <animation>
-    <type>rotate</type>
-    <object-name>profondeurDI</object-name>
-    <property>/controls/flight/elevator</property>
-    <factor> 15 </factor>
-    <axis>
-      <x1-m> 2.575 </x1-m>
-      <y1-m> 0.458 </y1-m>
-      <z1-m> 0.207 </z1-m>
-      <x2-m> 2.716 </x2-m>
-      <y2-m> 2.206 </y2-m>
-      <z2-m> 0.371 </z2-m>
-    </axis>
-  </animation>
-
-  <!-- Gouverne de direction -->
-  <animation>
-    <type>rotate</type>
-    <object-name>directionG</object-name>
-    <property>/surface-positions/rudder-pos-norm</property>
-    <factor> 20.0 </factor>
-    <center>
-      <x-m>  3.094 </x-m>
-      <y-m> -3.640 </y-m>
-      <z-m>  0.797 </z-m>
-    </center>
-    <axis>
-      <x> 0 </x>
-      <y> 0 </y> 
-      <z> 1 </z>
-=======
   <!-- Portes des trains -->
   <animation>
     <type>rotate</type>
@@ -708,25 +503,11 @@
       <x2-m> -1.17411 </x2-m>
       <y2-m>  0.35632 </y2-m>
       <z2-m> -0.30187 </z2-m>
->>>>>>> svn/master
     </axis>
   </animation>
   
   <animation>
     <type>rotate</type>
-<<<<<<< HEAD
-    <object-name>directionD</object-name>
-    <property>/surface-positions/rudder-pos-norm</property>
-    <factor> 20.0 </factor>
-    <center>
-      <x-m> 3.094 </x-m>
-      <y-m> 3.640 </y-m>
-      <z-m> 0.797 </z-m>
-    </center>
-    <axis>
-      <x> 0 </x>
-      <y> 0 </y> 
-=======
     <object-name>porteD2</object-name>
     <property>gear/gear[1]/position-norm</property>
     <interpolation>
@@ -805,7 +586,6 @@
     <axis>
       <x> 0 </x>
       <y> 0 </y>
->>>>>>> svn/master
       <z> 1 </z>
     </axis>
   </animation>
@@ -813,12 +593,8 @@
   <!-- Sortie/Rentrée du train -->
   <animation>
     <name>TrainG</name>
-<<<<<<< HEAD
-    <object-name>axeG</object-name>
-=======
     <object-name>axeGH</object-name>
     <object-name>axeGB</object-name>
->>>>>>> svn/master
     <object-name>roueG</object-name>
   </animation>
 
@@ -836,15 +612,9 @@
       <z-m> -0.220 </z-m>
     </center>
     <axis>
-<<<<<<< HEAD
-      <x>  0 </x>
-      <y>  0 </y> 
-      <z>  1 </z>
-=======
       <x> 0 </x>
       <y> 0 </y> 
       <z> 1 </z>
->>>>>>> svn/master
     </axis>
   </animation>
 
@@ -862,26 +632,16 @@
       <z-m> -0.220 </z-m>
     </center>
     <axis>
-<<<<<<< HEAD
-      <x>  0 </x>
-      <y>  1 </y> 
-      <z>  0 </z>
-=======
       <x> 0 </x>
       <y> 1 </y> 
       <z> 0 </z>
->>>>>>> svn/master
     </axis>
   </animation>
 
   <animation>
     <name>TrainD</name>
-<<<<<<< HEAD
-    <object-name>axeD</object-name>
-=======
     <object-name>axeDH</object-name>
     <object-name>axeDB</object-name>
->>>>>>> svn/master
     <object-name>roueD</object-name>
   </animation>
 
@@ -899,15 +659,9 @@
       <z-m> -0.220 </z-m>
     </center>
     <axis>
-<<<<<<< HEAD
-      <x>  0 </x>
-      <y>  0 </y> 
-      <z>  1 </z>
-=======
       <x> 0 </x>
       <y> 0 </y> 
       <z> 1 </z>
->>>>>>> svn/master
     </axis>
   </animation>
 
@@ -925,14 +679,6 @@
       <z-m> -0.220 </z-m>
     </center>
     <axis>
-<<<<<<< HEAD
-      <x>  0 </x>
-      <y>  1 </y> 
-      <z>  0 </z>
-    </axis>
-  </animation>
-
-=======
       <x> 0 </x>
       <y> 1 </y> 
       <z> 0 </z>
@@ -965,7 +711,6 @@
     </axis>
   </animation>
   
->>>>>>> svn/master
   <!-- Rotation des roues lors du roulage -->
   <animation>
     <type>spin</type>
@@ -1018,10 +763,6 @@
     </axis>
   </animation>
 
-<<<<<<< HEAD
-</PropertyList>
-
-=======
   <!-- Canopy -->
   <animation>
     <name>Canopy</name>
@@ -1068,4 +809,3 @@
   </animation>
   
 </PropertyList>
->>>>>>> svn/master

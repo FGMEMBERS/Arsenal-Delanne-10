@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!-- <PropertyList include="ad10-jsbsim-cnf.xml"> -->
-<PropertyList include="ad10-yasim-cnf.xml">
-
-  <sim>
-    <description>Arsenal Delanne 10 (YASim)</description>
-    <author>Emmanuel BARANGER (3D/FDM)</author>
-  </sim>
-
-</PropertyList>
-
-=======
 <?xml version="1.0" encoding="ISO-8859-1"?>
 
 <PropertyList include="Systems/ad10-base.xml">
@@ -34,4 +20,3 @@
   </sim>
 
 </PropertyList>
->>>>>>> svn/master
