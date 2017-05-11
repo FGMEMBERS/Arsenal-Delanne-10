@@ -10,6 +10,18 @@
     <flight-model>yasim</flight-model>
     <aero>Systems/ad10-yasim</aero>
 
+    <tags>
+      <tag>arsenal</tag>
+      <tag>high-wing</tag>
+      <tag>tail-dragger</tag>
+      <tag>fixed-gear</tag>
+      <tag>single-engine</tag>
+      <tag>piston</tag>
+      <tag>experimental</tag>
+      <tag>fighter</tag>
+      <tag>ww2</tag>
+    </tags>
+
     <rating>
       <FDM type="int">     3 </FDM>
       <systems type="int"> 1 </systems>
